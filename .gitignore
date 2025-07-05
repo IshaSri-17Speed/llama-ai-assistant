@@ -1,0 +1,7 @@
+llama.cpp/build/
+llama.cpp/models/*.gguf
+__pycache__/
+*.log
+*.mp4
+
+llama.cpp/
