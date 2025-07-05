@@ -38,10 +38,16 @@ This project is a lightweight, fully local AI assistant built using [llama.cpp](
 llama-ai-assistant/
 ├── models/ # GGUF model goes here
 │ └── qwen1_5-0_5b-chat-q4_k_m.gguf
-├── build/ # llama.cpp build output
-│ └── main # Compiled binary
-├── README.md # You're reading it
-└── llama.cpp/ # Source code (cloned from upstream)
+├── build/ # Compiled llama.cpp build output
+│ └── main # Compiled binary to run assistant
+├── llama.cpp/ # llama.cpp source code (cloned from upstream)
+├── screenshots/ # Screenshots for the demo
+│ └── ai-screenshot.png
+├── videos/ # Demo video
+│ └── ai-assistant-demo.mp4
+├── .gitignore
+├── LICENSE
+└── README.md
 ---
 
 ## 🚀 How to Run
